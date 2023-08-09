@@ -100,7 +100,7 @@ button {
   animation-duration: 1s;
 }
 
-.loginBtn {
+.loginBtn  {
   display: block;
   width: 250px;
   box-sizing: border-box;
@@ -150,6 +150,31 @@ button {
 .loginBtn--google:focus {
   background: #E74B37;
   box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
+}
+
+.logoutBtn, .profileBtn {
+  padding: 5px 20px 5px 20px;
+  line-height: 34px;
+  border-radius: 0.2em;
+  font-size: 16px;
+}
+
+.logoutBtn {
+  background-color: #BB3F30;
+}
+
+.logoutBtn a, .profileBtn a {
+  color: #FFF;
+  text-transform: none;
+  text-decoration: none;
+} 
+
+.avatar {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+  object-fit: cover;
 }
 
 @-webkit-keyframes fadeIn {
