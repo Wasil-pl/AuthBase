@@ -154,19 +154,19 @@ button {
 
 .logoutBtn, .profileBtn {
   padding: 5px 20px 5px 20px;
-  line-height: 34px;
-  border-radius: 0.2em;
-  font-size: 16px;
 }
 
 .logoutBtn {
   background-color: #BB3F30;
 }
 
-.logoutBtn a, .profileBtn a {
-  color: #FFF;
-  text-transform: none;
+.profileBtn {
+  background-color: #0064e7;
+}
+
+.logoutBtn , .profileBtn  {
   text-decoration: none;
+  text-align: center;
 } 
 
 .avatar {
